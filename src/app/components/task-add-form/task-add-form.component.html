@@ -1,0 +1,6 @@
+<form (ngSubmit)="addTask()">
+    <input [(ngModel)]="title" name="title" placeholder="タスクのタイトル" required>
+    <textarea [(ngModel)]="description" name="description" placeholder="タスクの詳細"></textarea>
+    <button type="submit">タスクを追加</button>
+  </form>
+  
